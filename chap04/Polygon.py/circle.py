@@ -1,4 +1,5 @@
 from swampy.TurtleWorld import*
+#draws a circle with radius r. t is a turtle.
 
 world = TurtleWorld()
 bob = Turtle()
