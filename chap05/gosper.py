@@ -5,6 +5,10 @@ bob = Turtle()
 from math import *
 
 def gosper1(t, l):
+	"""
+	Make Gosper Curve with total length l and turtle t.
+	"""
+
 	t.delay=.01
 	if l <= 10:
 		fd(t,l)

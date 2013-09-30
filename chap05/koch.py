@@ -5,6 +5,9 @@ from swampy.TurtleWorld import*
 import math
 
 def koch(t, l):
+	"""
+	Make koch Curve with total length l and turtle t.
+	"""
 	t.delay=.01
 	if l <= 3:
 		fd(t,l)
