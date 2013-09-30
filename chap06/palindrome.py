@@ -1,6 +1,6 @@
 """Module that provides is_palindrome.
 
-Author of is_palindrome: you
+Author of is_palindrome: Ankeet Mutha
 """
 
 def first(word):
@@ -14,7 +14,7 @@ def first(word):
 
 
 def last(word):
-    """Returns the first character of a word.
+    """Returns the last character of a word.
 
     word: string
 
@@ -35,6 +35,11 @@ def middle(word):
 
 def is_palindrome(word):
     """Write a good Docstring here."""
-
     # TODO: fill in the body of this function
-    return True
+    x = len(word)/2
+    n = 0
+    for i in range (0,x):
+        if word[i] == word[len(word)-1-i]:
+            n = n +1
+    if n == len(word)/2:
+        return True
