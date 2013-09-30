@@ -35,7 +35,7 @@ def middle(word):
 
 def is_palindrome(word):
     """
-    Checks if input is a palindrome.
+    Checks if input is a palindrome. Returns True if Palindrome
 
     input word is a string
     """
