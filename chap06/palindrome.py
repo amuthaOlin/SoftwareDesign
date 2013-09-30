@@ -34,12 +34,17 @@ def middle(word):
 
 
 def is_palindrome(word):
-    """Write a good Docstring here."""
-    # TODO: fill in the body of this function
-    x = len(word)/2
+    """
+    Checks if input is a palindrome.
+
+    input word is a string
+    """
+    
+ 
+    x = len(word)/2                 # divide by int 2 because middle letter doesn't matter
     n = 0
-    for i in range (0,x):
-        if word[i] == word[len(word)-1-i]:
+    for i in range (0,x):                   #Loop checks for palindromes
+        if word[i] == word[len(word)-1-i]:  #Counter increments. 
             n = n +1
     if n == len(word)/2:
         return True
