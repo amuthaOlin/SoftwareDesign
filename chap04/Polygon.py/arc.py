@@ -1,9 +1,9 @@
-from swampy.TurtleWorld import*
+#from swampy.TurtleWorld import*
 #draws an arc with radius "r" and angle "angle" 
 #"t" is a turtle.
 
-world = TurtleWorld()
-bob = Turtle()
+#world = TurtleWorld()
+#bob = Turtle()
 import math
 
 def arc(t,r,angle):
@@ -17,4 +17,4 @@ def arc(t,r,angle):
 
 	wait_for_user
 
-arc(bob,10.0,180)
+#arc(bob,10.0,60)
