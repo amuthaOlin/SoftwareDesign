@@ -1,14 +1,14 @@
 def rotate_word(w,n):
-"""
-Rotates every character in a word forward n letters. Use only lowercase letters.
+    """
+    Rotates every character in a word forward n letters. Use only lowercase letters.
 
-w: string
-n: integer
+    w: string
+    n: integer
 
-Returns shifted word string
+    Returns shifted word string
 
 
-"""
+    """
     length = len(w)
     i = length-1
     word = ""
